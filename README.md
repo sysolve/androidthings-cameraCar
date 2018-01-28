@@ -4,9 +4,11 @@ An Android Things RobotCar with Camera
 Android Things智能小车
 -----
 
-目前是0.1版本，这已经是一个可以运动、可以调速、可以遥控、可以避免碰撞的简单但完整的小车了。
+目前是0.1版本，这已经是一个可以运动、可以调速、可以遥控、可以避免碰撞的简单但功能完整的小车了。
 
-![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photos/car_v0.1.png)
+**基于Android Things开发，使用树莓派3B或NXP Pico开发板均可搭建。**
+
+![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photos/car_v0.1.jpg)
 
 实现了超声波距离检测，当前方距离小于100mm时停车。
 
@@ -25,9 +27,10 @@ Android Things智能小车
 4. 超声波距离检测，离障碍物过近时自动停车  **已实现**
 5. HTTP服务器，可通过手机/电脑遥控  **已实现**
 6. 优化程序结构
-7. 优化HTTP控制界面
+7. 优化HTTP控制界面，通过WebSocket控制以达到更快的控制响应效果
 8. 微信小程序控制
 9. 加入摄像头实现拍照功能
 10. 加入AI功能，对照片进行分析识别
 11. 加入云台可调整摄像头角度
+12. 加入蓝牙连接功能
 
