@@ -6,13 +6,13 @@ Android Things智能小车
 
 目前是0.1版本，这已经是一个可以运动、可以调速、可以遥控、可以避免碰撞的简单但完整的小车了。
 
-![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photo/car_v0.1.png)
+![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photos/car_v0.1.png)
 
 实现了超声波距离检测，当前方距离小于100mm时停车。
 
 可以通过Wifi连接，内置了使用NanoHTTPD实现的服务器。打开手机或电脑浏览器，可以实现遥控。
 
-![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photo/car_v0.1_control.png)
+![小车0.1版实物图](https://github.com/sysolve/androidthings-cameraCar/blob/master/photos/car_v0.1_control.png)
 
 车上安装了一个触摸按钮，作为急停功能，按下时车轮电机会立即停转。
 
